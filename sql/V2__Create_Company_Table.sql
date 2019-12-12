@@ -1,0 +1,5 @@
+CREATE TABLE FlywayDemo.Company (
+  Id bigint PRIMARY KEY IDENTITY,
+  Name VARCHAR(100) NOT NULL,
+  BusinessId VARCHAR(50) NOT NULL
+);
